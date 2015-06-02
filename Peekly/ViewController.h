@@ -1,5 +1,5 @@
 //
-//  GroupsViewController.h
+//  ViewController.h
 //  Peekly
 //
 //  Created by Nabir Dinani on 6/1/15.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GroupsViewController : UIViewController
+@interface ViewController : UIViewController
+
 
 @end
+

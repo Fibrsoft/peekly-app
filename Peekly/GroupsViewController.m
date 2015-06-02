@@ -1,51 +1,70 @@
 //
 //  GroupsViewController.m
-//  Peekly
+//  
 //
 //  Created by Nabir Dinani on 6/1/15.
-//  Copyright (c) 2015 Nabir Dinani. All rights reserved.
+//
 //
 
 #import "GroupsViewController.h"
 
 @interface GroupsViewController ()
 
-//@property (weak, nonatomic) IBOutlet UITabBarItem *GroupsTab;
 
 @end
 
 @implementation GroupsViewController
+@synthesize scrollView;
 
-
-//-(void)setGroupsTab:(UITabBarItem *)GroupsTab
-//{
-//    _GroupsTab = GroupsTab;
-//    UIImage *myImage = [UIImage imageNamed:@"groups_pic"];
-//    myImage = [myImage imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
-//    
-//}
-
-
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view, typically from a nib.
+    draw1 = 0;
+    scrollView.frame = CGRectMake(0, 300, 480, 55);
+    [scrollView setContentSize:CGSizeMake(480, 55)];
+    
+    openMenu.frame = CGRectMake(220, 270, 60, 30);
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)OpenMenu:(id)sender {
+    if (draw1 == 0) {
+        draw1 = 1;
+        [UIView beginAnimations:nil context:nil];
+        [UIView setAnimationDuration:1.0];
+        [UIView setAnimationDelay:0.0];
+        [UIView setAnimationCurve:UIViewAnimationCurveEaseOut];
+        
+        [UIButton beginAnimations:nil context:nil];
+        [UIButton setAnimationDuration:1.0];
+        [UIButton setAnimationDelay:0.0];
+        [UIButton setAnimationCurve:UIViewAnimationCurveEaseOut];
+        
+        //this is a comment
+        
+        scrollView.frame = CGRectMake(0, 460, 400, 164);
+        openMenu.frame = CGRectMake(220, 200, 60, 30);
+        
+        [self.view bringSubviewToFront:scrollView];
+        
+        [UIView commitAnimations];
+    } else {
+        draw1 = 0;
+        [UIView beginAnimations:nil context:nil];
+        [UIView setAnimationDuration:1.0];
+        [UIView setAnimationDelay:0.0];
+        [UIView setAnimationCurve:UIViewAnimationCurveEaseOut];
+        
+        [UIButton beginAnimations:nil context:nil];
+        [UIButton setAnimationDuration:1.0];
+        [UIButton setAnimationDelay:0.0];
+        [UIButton setAnimationCurve:UIViewAnimationCurveEaseOut];
+        
+        scrollView.frame = CGRectMake(0, 585, 400, 164);
+        openMenu.frame = CGRectMake(220, 270, 60, 30);
+        
+        [self.view bringSubviewToFront:scrollView];
+        
+        [UIView commitAnimations];
+    }
 }
-
-
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F1851BCE1B1CD91300A63C60"
+               BlueprintIdentifier = "F1DB8BEC1B1D6AB50096315F"
                BuildableName = "Peekly.app"
                BlueprintName = "Peekly"
                ReferencedContainer = "container:Peekly.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F1851BE71B1CD91300A63C60"
+               BlueprintIdentifier = "F1DB8C051B1D6AB50096315F"
                BuildableName = "PeeklyTests.xctest"
                BlueprintName = "PeeklyTests"
                ReferencedContainer = "container:Peekly.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F1851BE71B1CD91300A63C60"
+               BlueprintIdentifier = "F1DB8C051B1D6AB50096315F"
                BuildableName = "PeeklyTests.xctest"
                BlueprintName = "PeeklyTests"
                ReferencedContainer = "container:Peekly.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F1851BCE1B1CD91300A63C60"
+            BlueprintIdentifier = "F1DB8BEC1B1D6AB50096315F"
             BuildableName = "Peekly.app"
             BlueprintName = "Peekly"
             ReferencedContainer = "container:Peekly.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F1851BCE1B1CD91300A63C60"
+            BlueprintIdentifier = "F1DB8BEC1B1D6AB50096315F"
             BuildableName = "Peekly.app"
             BlueprintName = "Peekly"
             ReferencedContainer = "container:Peekly.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F1851BCE1B1CD91300A63C60"
+            BlueprintIdentifier = "F1DB8BEC1B1D6AB50096315F"
             BuildableName = "Peekly.app"
             BlueprintName = "Peekly"
             ReferencedContainer = "container:Peekly.xcodeproj">

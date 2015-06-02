@@ -7,59 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F1851BD51B1CD91300A63C60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1851BD41B1CD91300A63C60 /* main.m */; };
-		F1851BD81B1CD91300A63C60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1851BD71B1CD91300A63C60 /* AppDelegate.m */; };
-		F1851BDE1B1CD91300A63C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1851BDC1B1CD91300A63C60 /* Main.storyboard */; };
-		F1851BE01B1CD91300A63C60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1851BDF1B1CD91300A63C60 /* Images.xcassets */; };
-		F1851BE31B1CD91300A63C60 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1851BE11B1CD91300A63C60 /* LaunchScreen.xib */; };
-		F1851BEF1B1CD91300A63C60 /* PeeklyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1851BEE1B1CD91300A63C60 /* PeeklyTests.m */; };
-		F1851C031B1CDBEC00A63C60 /* GroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1851C021B1CDBEC00A63C60 /* GroupsViewController.m */; };
-		F1851C061B1CDC0D00A63C60 /* TrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1851C051B1CDC0D00A63C60 /* TrendsViewController.m */; };
-		F1851C091B1CDC2800A63C60 /* MyStuffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1851C081B1CDC2800A63C60 /* MyStuffViewController.m */; };
-		F1851C0C1B1CDC3C00A63C60 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1851C0B1B1CDC3C00A63C60 /* MoreViewController.m */; };
+		F1DB8BF31B1D6AB50096315F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DB8BF21B1D6AB50096315F /* main.m */; };
+		F1DB8BF61B1D6AB50096315F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DB8BF51B1D6AB50096315F /* AppDelegate.m */; };
+		F1DB8BF91B1D6AB50096315F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DB8BF81B1D6AB50096315F /* ViewController.m */; };
+		F1DB8BFC1B1D6AB50096315F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DB8BFA1B1D6AB50096315F /* Main.storyboard */; };
+		F1DB8BFE1B1D6AB50096315F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DB8BFD1B1D6AB50096315F /* Images.xcassets */; };
+		F1DB8C011B1D6AB50096315F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1DB8BFF1B1D6AB50096315F /* LaunchScreen.xib */; };
+		F1DB8C0D1B1D6AB50096315F /* PeeklyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DB8C0C1B1D6AB50096315F /* PeeklyTests.m */; };
+		F1DB8C1B1B1D6DDD0096315F /* GroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DB8C1A1B1D6DDD0096315F /* GroupsViewController.m */; };
+		F1DB8C1E1B1D6E3A0096315F /* TrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DB8C1D1B1D6E3A0096315F /* TrendsViewController.m */; };
+		F1DB8C211B1D6E5C0096315F /* MyStuffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DB8C201B1D6E5C0096315F /* MyStuffViewController.m */; };
+		F1DB8C241B1D6E720096315F /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DB8C231B1D6E720096315F /* MoreViewController.m */; };
+		F1DB8C271B1D72960096315F /* CommunityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DB8C261B1D72960096315F /* CommunityTableViewController.m */; };
+		F1DB8C2A1B1D73320096315F /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DB8C291B1D73320096315F /* TableCell.m */; };
+		F1DB8C2D1B1D7A8A0096315F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DB8C2C1B1D7A8A0096315F /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F1851BE91B1CD91300A63C60 /* PBXContainerItemProxy */ = {
+		F1DB8C071B1D6AB50096315F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F1851BC71B1CD91300A63C60 /* Project object */;
+			containerPortal = F1DB8BE51B1D6AB50096315F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F1851BCE1B1CD91300A63C60;
+			remoteGlobalIDString = F1DB8BEC1B1D6AB50096315F;
 			remoteInfo = Peekly;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F1851BCF1B1CD91300A63C60 /* Peekly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peekly.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1851BD31B1CD91300A63C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1851BD41B1CD91300A63C60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F1851BD61B1CD91300A63C60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F1851BD71B1CD91300A63C60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F1851BDD1B1CD91300A63C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F1851BDF1B1CD91300A63C60 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F1851BE21B1CD91300A63C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F1851BE81B1CD91300A63C60 /* PeeklyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeeklyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1851BED1B1CD91300A63C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1851BEE1B1CD91300A63C60 /* PeeklyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeeklyTests.m; sourceTree = "<group>"; };
-		F1851C011B1CDBEC00A63C60 /* GroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupsViewController.h; sourceTree = "<group>"; };
-		F1851C021B1CDBEC00A63C60 /* GroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupsViewController.m; sourceTree = "<group>"; };
-		F1851C041B1CDC0D00A63C60 /* TrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendsViewController.h; sourceTree = "<group>"; };
-		F1851C051B1CDC0D00A63C60 /* TrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendsViewController.m; sourceTree = "<group>"; };
-		F1851C071B1CDC2800A63C60 /* MyStuffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStuffViewController.h; sourceTree = "<group>"; };
-		F1851C081B1CDC2800A63C60 /* MyStuffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStuffViewController.m; sourceTree = "<group>"; };
-		F1851C0A1B1CDC3C00A63C60 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
-		F1851C0B1B1CDC3C00A63C60 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		F1DB8BED1B1D6AB50096315F /* Peekly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peekly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1DB8BF11B1D6AB50096315F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1DB8BF21B1D6AB50096315F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1DB8BF41B1D6AB50096315F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1DB8BF51B1D6AB50096315F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1DB8BF71B1D6AB50096315F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1DB8BF81B1D6AB50096315F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1DB8BFB1B1D6AB50096315F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1DB8BFD1B1D6AB50096315F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F1DB8C001B1D6AB50096315F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F1DB8C061B1D6AB50096315F /* PeeklyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeeklyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1DB8C0B1B1D6AB50096315F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1DB8C0C1B1D6AB50096315F /* PeeklyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeeklyTests.m; sourceTree = "<group>"; };
+		F1DB8C191B1D6DDD0096315F /* GroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupsViewController.h; sourceTree = "<group>"; };
+		F1DB8C1A1B1D6DDD0096315F /* GroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupsViewController.m; sourceTree = "<group>"; };
+		F1DB8C1C1B1D6E3A0096315F /* TrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendsViewController.h; sourceTree = "<group>"; };
+		F1DB8C1D1B1D6E3A0096315F /* TrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendsViewController.m; sourceTree = "<group>"; };
+		F1DB8C1F1B1D6E5C0096315F /* MyStuffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStuffViewController.h; sourceTree = "<group>"; };
+		F1DB8C201B1D6E5C0096315F /* MyStuffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStuffViewController.m; sourceTree = "<group>"; };
+		F1DB8C221B1D6E720096315F /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		F1DB8C231B1D6E720096315F /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		F1DB8C251B1D72960096315F /* CommunityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityTableViewController.h; sourceTree = "<group>"; };
+		F1DB8C261B1D72960096315F /* CommunityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityTableViewController.m; sourceTree = "<group>"; };
+		F1DB8C281B1D73320096315F /* TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
+		F1DB8C291B1D73320096315F /* TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
+		F1DB8C2B1B1D7A8A0096315F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		F1DB8C2C1B1D7A8A0096315F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F1851BCC1B1CD91300A63C60 /* Frameworks */ = {
+		F1DB8BEA1B1D6AB50096315F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1851BE51B1CD91300A63C60 /* Frameworks */ = {
+		F1DB8C031B1D6AB50096315F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,67 +81,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F1851BC61B1CD91300A63C60 = {
+		F1DB8BE41B1D6AB50096315F = {
 			isa = PBXGroup;
 			children = (
-				F1851BD11B1CD91300A63C60 /* Peekly */,
-				F1851BEB1B1CD91300A63C60 /* PeeklyTests */,
-				F1851BD01B1CD91300A63C60 /* Products */,
+				F1DB8BEF1B1D6AB50096315F /* Peekly */,
+				F1DB8C091B1D6AB50096315F /* PeeklyTests */,
+				F1DB8BEE1B1D6AB50096315F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F1851BD01B1CD91300A63C60 /* Products */ = {
+		F1DB8BEE1B1D6AB50096315F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F1851BCF1B1CD91300A63C60 /* Peekly.app */,
-				F1851BE81B1CD91300A63C60 /* PeeklyTests.xctest */,
+				F1DB8BED1B1D6AB50096315F /* Peekly.app */,
+				F1DB8C061B1D6AB50096315F /* PeeklyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F1851BD11B1CD91300A63C60 /* Peekly */ = {
+		F1DB8BEF1B1D6AB50096315F /* Peekly */ = {
 			isa = PBXGroup;
 			children = (
-				F1851BD61B1CD91300A63C60 /* AppDelegate.h */,
-				F1851BD71B1CD91300A63C60 /* AppDelegate.m */,
-				F1851BDC1B1CD91300A63C60 /* Main.storyboard */,
-				F1851C0A1B1CDC3C00A63C60 /* MoreViewController.h */,
-				F1851C0B1B1CDC3C00A63C60 /* MoreViewController.m */,
-				F1851C071B1CDC2800A63C60 /* MyStuffViewController.h */,
-				F1851C081B1CDC2800A63C60 /* MyStuffViewController.m */,
-				F1851C041B1CDC0D00A63C60 /* TrendsViewController.h */,
-				F1851C051B1CDC0D00A63C60 /* TrendsViewController.m */,
-				F1851C011B1CDBEC00A63C60 /* GroupsViewController.h */,
-				F1851C021B1CDBEC00A63C60 /* GroupsViewController.m */,
-				F1851BDF1B1CD91300A63C60 /* Images.xcassets */,
-				F1851BE11B1CD91300A63C60 /* LaunchScreen.xib */,
-				F1851BD21B1CD91300A63C60 /* Supporting Files */,
+				F1DB8BF41B1D6AB50096315F /* AppDelegate.h */,
+				F1DB8BF51B1D6AB50096315F /* AppDelegate.m */,
+				F1DB8BF71B1D6AB50096315F /* ViewController.h */,
+				F1DB8BF81B1D6AB50096315F /* ViewController.m */,
+				F1DB8C191B1D6DDD0096315F /* GroupsViewController.h */,
+				F1DB8C1A1B1D6DDD0096315F /* GroupsViewController.m */,
+				F1DB8BFA1B1D6AB50096315F /* Main.storyboard */,
+				F1DB8C221B1D6E720096315F /* MoreViewController.h */,
+				F1DB8C231B1D6E720096315F /* MoreViewController.m */,
+				F1DB8C1F1B1D6E5C0096315F /* MyStuffViewController.h */,
+				F1DB8C201B1D6E5C0096315F /* MyStuffViewController.m */,
+				F1DB8C1C1B1D6E3A0096315F /* TrendsViewController.h */,
+				F1DB8C1D1B1D6E3A0096315F /* TrendsViewController.m */,
+				F1DB8C251B1D72960096315F /* CommunityTableViewController.h */,
+				F1DB8C261B1D72960096315F /* CommunityTableViewController.m */,
+				F1DB8C2B1B1D7A8A0096315F /* DetailViewController.h */,
+				F1DB8C2C1B1D7A8A0096315F /* DetailViewController.m */,
+				F1DB8C281B1D73320096315F /* TableCell.h */,
+				F1DB8C291B1D73320096315F /* TableCell.m */,
+				F1DB8BFD1B1D6AB50096315F /* Images.xcassets */,
+				F1DB8BFF1B1D6AB50096315F /* LaunchScreen.xib */,
+				F1DB8BF01B1D6AB50096315F /* Supporting Files */,
 			);
 			path = Peekly;
 			sourceTree = "<group>";
 		};
-		F1851BD21B1CD91300A63C60 /* Supporting Files */ = {
+		F1DB8BF01B1D6AB50096315F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F1851BD31B1CD91300A63C60 /* Info.plist */,
-				F1851BD41B1CD91300A63C60 /* main.m */,
+				F1DB8BF11B1D6AB50096315F /* Info.plist */,
+				F1DB8BF21B1D6AB50096315F /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F1851BEB1B1CD91300A63C60 /* PeeklyTests */ = {
+		F1DB8C091B1D6AB50096315F /* PeeklyTests */ = {
 			isa = PBXGroup;
 			children = (
-				F1851BEE1B1CD91300A63C60 /* PeeklyTests.m */,
-				F1851BEC1B1CD91300A63C60 /* Supporting Files */,
+				F1DB8C0C1B1D6AB50096315F /* PeeklyTests.m */,
+				F1DB8C0A1B1D6AB50096315F /* Supporting Files */,
 			);
 			path = PeeklyTests;
 			sourceTree = "<group>";
 		};
-		F1851BEC1B1CD91300A63C60 /* Supporting Files */ = {
+		F1DB8C0A1B1D6AB50096315F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F1851BED1B1CD91300A63C60 /* Info.plist */,
+				F1DB8C0B1B1D6AB50096315F /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -137,13 +157,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F1851BCE1B1CD91300A63C60 /* Peekly */ = {
+		F1DB8BEC1B1D6AB50096315F /* Peekly */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1851BF21B1CD91300A63C60 /* Build configuration list for PBXNativeTarget "Peekly" */;
+			buildConfigurationList = F1DB8C101B1D6AB50096315F /* Build configuration list for PBXNativeTarget "Peekly" */;
 			buildPhases = (
-				F1851BCB1B1CD91300A63C60 /* Sources */,
-				F1851BCC1B1CD91300A63C60 /* Frameworks */,
-				F1851BCD1B1CD91300A63C60 /* Resources */,
+				F1DB8BE91B1D6AB50096315F /* Sources */,
+				F1DB8BEA1B1D6AB50096315F /* Frameworks */,
+				F1DB8BEB1B1D6AB50096315F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -151,46 +171,46 @@
 			);
 			name = Peekly;
 			productName = Peekly;
-			productReference = F1851BCF1B1CD91300A63C60 /* Peekly.app */;
+			productReference = F1DB8BED1B1D6AB50096315F /* Peekly.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F1851BE71B1CD91300A63C60 /* PeeklyTests */ = {
+		F1DB8C051B1D6AB50096315F /* PeeklyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1851BF51B1CD91300A63C60 /* Build configuration list for PBXNativeTarget "PeeklyTests" */;
+			buildConfigurationList = F1DB8C131B1D6AB50096315F /* Build configuration list for PBXNativeTarget "PeeklyTests" */;
 			buildPhases = (
-				F1851BE41B1CD91300A63C60 /* Sources */,
-				F1851BE51B1CD91300A63C60 /* Frameworks */,
-				F1851BE61B1CD91300A63C60 /* Resources */,
+				F1DB8C021B1D6AB50096315F /* Sources */,
+				F1DB8C031B1D6AB50096315F /* Frameworks */,
+				F1DB8C041B1D6AB50096315F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F1851BEA1B1CD91300A63C60 /* PBXTargetDependency */,
+				F1DB8C081B1D6AB50096315F /* PBXTargetDependency */,
 			);
 			name = PeeklyTests;
 			productName = PeeklyTests;
-			productReference = F1851BE81B1CD91300A63C60 /* PeeklyTests.xctest */;
+			productReference = F1DB8C061B1D6AB50096315F /* PeeklyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F1851BC71B1CD91300A63C60 /* Project object */ = {
+		F1DB8BE51B1D6AB50096315F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Nabir Dinani";
 				TargetAttributes = {
-					F1851BCE1B1CD91300A63C60 = {
+					F1DB8BEC1B1D6AB50096315F = {
 						CreatedOnToolsVersion = 6.3;
 					};
-					F1851BE71B1CD91300A63C60 = {
+					F1DB8C051B1D6AB50096315F = {
 						CreatedOnToolsVersion = 6.3;
-						TestTargetID = F1851BCE1B1CD91300A63C60;
+						TestTargetID = F1DB8BEC1B1D6AB50096315F;
 					};
 				};
 			};
-			buildConfigurationList = F1851BCA1B1CD91300A63C60 /* Build configuration list for PBXProject "Peekly" */;
+			buildConfigurationList = F1DB8BE81B1D6AB50096315F /* Build configuration list for PBXProject "Peekly" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -198,29 +218,29 @@
 				en,
 				Base,
 			);
-			mainGroup = F1851BC61B1CD91300A63C60;
-			productRefGroup = F1851BD01B1CD91300A63C60 /* Products */;
+			mainGroup = F1DB8BE41B1D6AB50096315F;
+			productRefGroup = F1DB8BEE1B1D6AB50096315F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F1851BCE1B1CD91300A63C60 /* Peekly */,
-				F1851BE71B1CD91300A63C60 /* PeeklyTests */,
+				F1DB8BEC1B1D6AB50096315F /* Peekly */,
+				F1DB8C051B1D6AB50096315F /* PeeklyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F1851BCD1B1CD91300A63C60 /* Resources */ = {
+		F1DB8BEB1B1D6AB50096315F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1851BDE1B1CD91300A63C60 /* Main.storyboard in Resources */,
-				F1851BE31B1CD91300A63C60 /* LaunchScreen.xib in Resources */,
-				F1851BE01B1CD91300A63C60 /* Images.xcassets in Resources */,
+				F1DB8BFC1B1D6AB50096315F /* Main.storyboard in Resources */,
+				F1DB8C011B1D6AB50096315F /* LaunchScreen.xib in Resources */,
+				F1DB8BFE1B1D6AB50096315F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1851BE61B1CD91300A63C60 /* Resources */ = {
+		F1DB8C041B1D6AB50096315F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -230,50 +250,54 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F1851BCB1B1CD91300A63C60 /* Sources */ = {
+		F1DB8BE91B1D6AB50096315F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1851C061B1CDC0D00A63C60 /* TrendsViewController.m in Sources */,
-				F1851C0C1B1CDC3C00A63C60 /* MoreViewController.m in Sources */,
-				F1851BD81B1CD91300A63C60 /* AppDelegate.m in Sources */,
-				F1851C031B1CDBEC00A63C60 /* GroupsViewController.m in Sources */,
-				F1851BD51B1CD91300A63C60 /* main.m in Sources */,
-				F1851C091B1CDC2800A63C60 /* MyStuffViewController.m in Sources */,
+				F1DB8C2A1B1D73320096315F /* TableCell.m in Sources */,
+				F1DB8C1B1B1D6DDD0096315F /* GroupsViewController.m in Sources */,
+				F1DB8C211B1D6E5C0096315F /* MyStuffViewController.m in Sources */,
+				F1DB8C1E1B1D6E3A0096315F /* TrendsViewController.m in Sources */,
+				F1DB8BF91B1D6AB50096315F /* ViewController.m in Sources */,
+				F1DB8C2D1B1D7A8A0096315F /* DetailViewController.m in Sources */,
+				F1DB8BF61B1D6AB50096315F /* AppDelegate.m in Sources */,
+				F1DB8C271B1D72960096315F /* CommunityTableViewController.m in Sources */,
+				F1DB8C241B1D6E720096315F /* MoreViewController.m in Sources */,
+				F1DB8BF31B1D6AB50096315F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1851BE41B1CD91300A63C60 /* Sources */ = {
+		F1DB8C021B1D6AB50096315F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1851BEF1B1CD91300A63C60 /* PeeklyTests.m in Sources */,
+				F1DB8C0D1B1D6AB50096315F /* PeeklyTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F1851BEA1B1CD91300A63C60 /* PBXTargetDependency */ = {
+		F1DB8C081B1D6AB50096315F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F1851BCE1B1CD91300A63C60 /* Peekly */;
-			targetProxy = F1851BE91B1CD91300A63C60 /* PBXContainerItemProxy */;
+			target = F1DB8BEC1B1D6AB50096315F /* Peekly */;
+			targetProxy = F1DB8C071B1D6AB50096315F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F1851BDC1B1CD91300A63C60 /* Main.storyboard */ = {
+		F1DB8BFA1B1D6AB50096315F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F1851BDD1B1CD91300A63C60 /* Base */,
+				F1DB8BFB1B1D6AB50096315F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F1851BE11B1CD91300A63C60 /* LaunchScreen.xib */ = {
+		F1DB8BFF1B1D6AB50096315F /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F1851BE21B1CD91300A63C60 /* Base */,
+				F1DB8C001B1D6AB50096315F /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -281,7 +305,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F1851BF01B1CD91300A63C60 /* Debug */ = {
+		F1DB8C0E1B1D6AB50096315F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -324,7 +348,7 @@
 			};
 			name = Debug;
 		};
-		F1851BF11B1CD91300A63C60 /* Release */ = {
+		F1DB8C0F1B1D6AB50096315F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -361,7 +385,7 @@
 			};
 			name = Release;
 		};
-		F1851BF31B1CD91300A63C60 /* Debug */ = {
+		F1DB8C111B1D6AB50096315F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -371,7 +395,7 @@
 			};
 			name = Debug;
 		};
-		F1851BF41B1CD91300A63C60 /* Release */ = {
+		F1DB8C121B1D6AB50096315F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -381,7 +405,7 @@
 			};
 			name = Release;
 		};
-		F1851BF61B1CD91300A63C60 /* Debug */ = {
+		F1DB8C141B1D6AB50096315F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -400,7 +424,7 @@
 			};
 			name = Debug;
 		};
-		F1851BF71B1CD91300A63C60 /* Release */ = {
+		F1DB8C151B1D6AB50096315F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,32 +442,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F1851BCA1B1CD91300A63C60 /* Build configuration list for PBXProject "Peekly" */ = {
+		F1DB8BE81B1D6AB50096315F /* Build configuration list for PBXProject "Peekly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1851BF01B1CD91300A63C60 /* Debug */,
-				F1851BF11B1CD91300A63C60 /* Release */,
+				F1DB8C0E1B1D6AB50096315F /* Debug */,
+				F1DB8C0F1B1D6AB50096315F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1851BF21B1CD91300A63C60 /* Build configuration list for PBXNativeTarget "Peekly" */ = {
+		F1DB8C101B1D6AB50096315F /* Build configuration list for PBXNativeTarget "Peekly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1851BF31B1CD91300A63C60 /* Debug */,
-				F1851BF41B1CD91300A63C60 /* Release */,
+				F1DB8C111B1D6AB50096315F /* Debug */,
+				F1DB8C121B1D6AB50096315F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		F1851BF51B1CD91300A63C60 /* Build configuration list for PBXNativeTarget "PeeklyTests" */ = {
+		F1DB8C131B1D6AB50096315F /* Build configuration list for PBXNativeTarget "PeeklyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1851BF61B1CD91300A63C60 /* Debug */,
-				F1851BF71B1CD91300A63C60 /* Release */,
+				F1DB8C141B1D6AB50096315F /* Debug */,
+				F1DB8C151B1D6AB50096315F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F1851BC71B1CD91300A63C60 /* Project object */;
+	rootObject = F1DB8BE51B1D6AB50096315F /* Project object */;
 }
